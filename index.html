@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anashell Nails - Студия маникюра и педикюра</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <h1>Anashell.nails</h1>
+                </div>
+                
+                <nav class="nav-menu">
+                    <ul class="nav-list">
+                        <li><a href="#services" class="nav-link">Услуги</a></li>
+                        <li><a href="#portfolio" class="nav-link">Наши работы</a></li>
+                        <li><a href="#advantages" class="nav-link">Преимущества</a></li>
+                        <li><a href="#booking" class="nav-link">Запись</a></li>
+                    </ul>
+                </nav>
+                
+                <div class="header-right">
+                    <div class="header-info">
+                        <div class="social-icons">
+                            <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-telegram"></i></a>
+                        </div>
+                    </div>
+                    <button class="mobile-menu-toggle">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-background">
+            <div class="floating-elements">
+                <div class="floating-element element-1"></div>
+                <div class="floating-element element-2"></div>
+                <div class="floating-element element-3"></div>
+                <div class="floating-element element-4"></div>
+                <div class="floating-element element-5"></div>
+            </div>
+            <div class="gradient-overlay"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-left">
+                <div class="hero-badge">
+                    <i class="fas fa-sparkles"></i>
+                    <span>Персональная студия</span>
+                </div>
+                <h1 class="hero-title">Привет, я Настя</h1>
+                <p class="hero-subtitle">Ваш личный мастер ногтевого искусства</p>
+                <div class="hero-bio">
+                    <p>Напилю ногти любой сложности, от миндаля до креативной экстра длины! Создам вам эксклюзивные ногти, которые являются люксом в мире ногтей 💅🏻</p>
+                    <p>Буду ждать ко мне на классный дизайн, приятные разговоры и уютную атмосферу🤍</p>
+                </div>
+            </div>
+            <div class="hero-right">
+                <div class="booking-form">
+                    <div class="form-header">
+                        <div class="form-icon">
+                            <i class="fas fa-calendar-check"></i>
+                        </div>
+                        <h2>Онлайн запись</h2>
+                        <p>Выберите удобное время и запишитесь за 2 минуты</p>
+                    </div>
+                    <form>
+                        <div class="booking-features">
+                            <div class="booking-feature">
+                                <i class="fas fa-clock"></i>
+                                <span>Быстрая запись</span>
+                            </div>
+                            <div class="booking-feature">
+                                <i class="fas fa-mobile-alt"></i>
+                                <span>Удобное приложение</span>
+                            </div>
+                            <div class="booking-feature">
+                                <i class="fas fa-bell"></i>
+                                <span>Напоминание о визите</span>
+                            </div>
+                        </div>
+                        <div class="booking-info-text">
+                            <p>🎯 <strong>Гарантия лучшего времени!</strong> Переходите в приложение и выберите свободную дату</p>
+                        </div>
+                        <button type="button" class="mst-booking-btn" onclick="window.open('https://mst.link/shelpyakova_anastasiya', '_blank')">
+                            <i class="fas fa-magic"></i>
+                            <span>Записаться сейчас</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                                                <p class="booking-note">💫 Мгновенный доступ к календарю мастера</p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <h2 class="section-title animate-fade-in">Услуги</h2>
+            <div class="services-grid">
+                <div class="service-card animate-scale-in">
+                    <div class="service-icon">
+                        <i class="fas fa-hand-sparkles"></i>
+                    </div>
+                    <h3>Маникюр</h3>
+                    <p>Классический и аппаратный маникюр с покрытием гель-лаком</p>
+                </div>
+                <div class="service-card animate-scale-in-delay">
+                    <div class="service-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <h3>Арт ногти</h3>
+                    <p>Авторский дизайн и искусство на ногтях любой сложности</p>
+                </div>
+                <div class="service-card animate-scale-in-delay-2">
+                    <div class="service-icon">
+                        <i class="fas fa-magic"></i>
+                    </div>
+                    <h3>Наращивание</h3>
+                    <p>Своя длина, моделирование, выкладной френч, коррекция</p>
+                </div>
+                <div class="service-card animate-scale-in-delay-3">
+                    <div class="service-icon">
+                        <i class="fas fa-wand-magic-sparkles"></i>
+                    </div>
+                    <h3>Моделирование</h3>
+                    <p>Создание идеальной формы и длины ногтей</p>
+                </div>
+            </div>
+            <button class="price-btn">Прайс-лист</button>
+        </div>
+    </section>
+
+    
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <h2 class="section-title animate-fade-in">Работы</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-aos="fade-up">
+                    <div class="portfolio-overlay">
+                        <div class="portfolio-info">
+                            <h3>Классический маникюр</h3>
+                            <p>Элегантный дизайн в nude тонах</p>
+                            <button class="view-btn">
+                                <i class="fas fa-search-plus"></i>
+                                Смотреть
+                            </button>
+                        </div>
+                    </div>
+                    <img src="images/img1.jpg" alt="Работа 1">
+                </div>
+                <div class="portfolio-item" data-aos="fade-up" data-aos-delay="100">
+                    <div class="portfolio-overlay">
+                        <div class="portfolio-info">
+                            <h3>Френч дизайн</h3>
+                            <p>Классика в современном исполнении</p>
+                            <button class="view-btn">
+                                <i class="fas fa-search-plus"></i>
+                                Смотреть
+                            </button>
+                        </div>
+                    </div>
+                    <img src="images/img2.jpg" alt="Работа 2">
+                </div>
+                <div class="portfolio-item" data-aos="fade-up" data-aos-delay="200">
+                    <div class="portfolio-overlay">
+                        <div class="portfolio-info">
+                            <h3>Арт-дизайн</h3>
+                            <p>Яркий и креативный дизайн</p>
+                            <button class="view-btn">
+                                <i class="fas fa-search-plus"></i>
+                                Смотреть
+                            </button>
+                        </div>
+                    </div>
+                    <img src="images/img3.jpg" alt="Работа 3">
+                </div>
+                <div class="portfolio-item" data-aos="fade-up" data-aos-delay="300">
+                    <div class="portfolio-overlay">
+                        <div class="portfolio-info">
+                            <h3>Венский маникюр</h3>
+                            <p>Естественная красота ногтей</p>
+                            <button class="view-btn">
+                                <i class="fas fa-search-plus"></i>
+                                Смотреть
+                            </button>
+                        </div>
+                    </div>
+                    <img src="images/img4.jpg" alt="Работа 4">
+                </div>
+                <div class="portfolio-item" data-aos="fade-up" data-aos-delay="400">
+                    <div class="portfolio-overlay">
+                        <div class="portfolio-info">
+                            <h3>Свадебный маникюр</h3>
+                            <p>Роскошный дизайн для особого дня</p>
+                            <button class="view-btn">
+                                <i class="fas fa-search-plus"></i>
+                                Смотреть
+                            </button>
+                        </div>
+                    </div>
+                    <img src="images/img5.jpg" alt="Работа 5">
+                </div>
+                <div class="portfolio-item" data-aos="fade-up" data-aos-delay="500">
+                    <div class="portfolio-overlay">
+                        <div class="portfolio-info">
+                            <h3>Наращивание</h3>
+                            <p>Идеальная форма и длина</p>
+                            <button class="view-btn">
+                                <i class="fas fa-search-plus"></i>
+                                Смотреть
+                            </button>
+                        </div>
+                    </div>
+                    <img src="images/img6.jpg" alt="Работа 6">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Advantages Section -->
+    <section class="advantages" id="advantages">
+        <div class="container">
+            <h2 class="section-title animate-fade-in">Наши преимущества</h2>
+            <div class="advantages-grid">
+                <div class="advantage-card animate-fade-in-up">
+                    <div class="advantage-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <div class="advantage-content">
+                        <h3>Стерильные инструменты</h3>
+                        <p>После каждого использования инструменты проходят 4 этапа стерилизации и упаковываются в стерильный крафт-пакет, который открывается при вас.</p>
+                    </div>
+                </div>
+                <div class="advantage-card animate-fade-in-up-delay">
+                    <div class="advantage-icon">
+                        <i class="fas fa-couch"></i>
+                    </div>
+                    <div class="advantage-content">
+                        <h3>Уютная атмосфера</h3>
+                        <p>В нашей студии мы обустроили атмосферу домашнего уюта с мягкой мебелью, вкусными напитками, печеньем, ненавязчивыми фильмами и музыкой.</p>
+                    </div>
+                </div>
+                <div class="advantage-card animate-fade-in-up-delay-2">
+                    <div class="advantage-icon">
+                        <i class="fas fa-gem"></i>
+                    </div>
+                    <div class="advantage-content">
+                        <h3>Профессиональные материалы</h3>
+                        <p>Мы используем только профессиональные инструменты и закупаем материалы высшего качества. Среди поставщиков Aeropulling, Amilak, Eva Bond, Gloss и Swarovski.</p>
+                    </div>
+                </div>
+                <div class="advantage-card animate-fade-in-up-delay-3">
+                    <div class="advantage-icon">
+                        <i class="fas fa-medal"></i>
+                    </div>
+                    <div class="advantage-content">
+                        <h3>Качество работы и гарантия</h3>
+                        <p>Выполняем работу максимально качественно и даём гарантию на покрытие 4 дня. Если в течение этого времени отклеится кусочек или появится трещина - переделаем бесплатно.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials-section" id="testimonials">
+        <div class="container">
+            <h2 class="section-title">Отзывы клиентов</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text">"Отличная студия! Мастер очень внимательный, сделал все как я хотела. Гарантия на покрытие действительно работает - уже 3 недели ношу и все идеально!"</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">
+                                <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='50' fill='%23667eea'/%3E%3Ctext x='50' y='55' text-anchor='middle' fill='white' font-size='30' font-family='Arial'%3EА%3C/text%3E%3C/svg%3E" alt="Анастасия">
+                            </div>
+                            <div class="author-info">
+                                <h4>Анастасия К.</h4>
+                                <span class="testimonial-date">2 недели назад</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text">"Здесь потрясающая атмосфера! Уютная студия, вкусный кофе, а главное - качественный маникюр. Дизайн всегда получается на высшем уровне!"</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">
+                                <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='50' fill='%23764ba2'/%3E%3Ctext x='50' y='55' text-anchor='middle' fill='white' font-size='30' font-family='Arial'%3EМ%3C/text%3E%3C/svg%3E" alt="Мария">
+                            </div>
+                            <div class="author-info">
+                                <h4>Мария П.</h4>
+                                <span class="testimonial-date">1 месяц назад</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text">"Хожу только в эту студию уже год! Мастера всегда следят за трендами, предлагают интересные дизайны. Инструменты действительно стерильные, открывают пакет при тебе."</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">
+                                <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='50' fill='%23667eea'/%3E%3Ctext x='50' y='55' text-anchor='middle' fill='white' font-size='30' font-family='Arial'%3EЕ%3C/text%3E%3C/svg%3E" alt="Елена">
+                            </div>
+                            <div class="author-info">
+                                <h4>Елена С.</h4>
+                                <span class="testimonial-date">3 месяца назад</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Section -->
+    <section class="booking-section" id="booking">
+        <div class="container">
+            <div class="booking-content">
+                <div class="booking-info animate-fade-in-left">
+                    <h2 class="booking-title">Запишитесь на маникюр</h2>
+                    <p class="booking-subtitle">Оставьте заявку и мы свяжемся с вами в ближайшее время</p>
+                    <div class="booking-features">
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Быстрая запись</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Удобное время</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Гарантия качества</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="booking-form-container animate-slide-in-right">
+                    <div class="booking-form">
+                        <h3>Онлайн запись</h3>
+                        <form id="bookingForm">
+                            <div class="form-group">
+                                <label for="name">Ваше имя</label>
+                                <input type="text" id="name" name="name" placeholder="Введите имя" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Телефон</label>
+                                <input type="tel" id="phone" name="phone" placeholder="+7 (___) ___-__-__" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="service">Услуга</label>
+                                <select id="service" name="service" required>
+                                    <option value="">Выберите услугу</option>
+                                    <option value="manicure">Маникюр</option>
+                                    <option value="pedicure">Педикюр</option>
+                                    <option value="extension">Наращивание</option>
+                                    <option value="correction">Коррекция</option>
+                                </select>
+                            </div>
+                            <button type="submit" class="submit-btn">Записаться</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <!-- Chat Widget -->
+    <div class="chat-widget animate-float">
+        <button class="chat-btn">
+            <i class="fas fa-comments"></i>
+        </button>
+        <div class="chat-box">
+            <div class="chat-header">
+                <h4>Чат с нами</h4>
+                <button class="close-chat">&times;</button>
+            </div>
+            <div class="chat-messages">
+                <div class="message bot-message">
+                    Здравствуйте! Чем могу помочь?
+                </div>
+            </div>
+            <div class="chat-input">
+                <input type="text" placeholder="Введите сообщение...">
+                <button class="send-btn"><i class="fas fa-paper-plane"></i></button>
+            </div>
+        </div>
+    </div>
+
+    <script src="scripts/script.js"></script>
+</body>
+</html>
